@@ -1,7 +1,7 @@
 import "./App.css";
-
+console.log(import.meta.env.REACT_APP_VITE_MESSAGE)
 function App() {
-  console.log(import.meta.env.REACT_APP_VITE_MESSAGE)
+  
   return (
     <main className="max-w-[932px] pb-8 pt-16 px-10">
       <h1 className="mb-6 md:text-6xl reckless text-4xl text-white">
