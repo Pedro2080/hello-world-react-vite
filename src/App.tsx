@@ -1,5 +1,6 @@
 import "./App.css";
 console.log(import.meta.env.REACT_APP_VITE_MESSAGE)
+console.log("hello joao")
 function App() {
   
   return (
